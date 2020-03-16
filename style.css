@@ -1,0 +1,21 @@
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  text-align: center;
+}
+
+.nav:hover > .nav-sub-item{
+  display: block;
+}
+
+.nav-sub-item {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
